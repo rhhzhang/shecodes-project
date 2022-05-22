@@ -1,0 +1,50 @@
+body {
+  font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+}
+
+.right {
+  padding: 20px 20px 20px 150px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.left {
+  padding: 20px 150px 20px 20px;
+  top: 0;
+  right: 0;
+  position: fixed;
+}
+
+.weather {
+  padding: 150px;
+}
+
+.search {
+  padding: 30px;
+  align-items: center;
+  display: block;
+}
+
+.days {
+  font-weight: bold;
+}
+
+.search {
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 10px auto 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+
+.current {
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 10px auto 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  text-align: center;
+}
